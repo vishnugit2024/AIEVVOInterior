@@ -1,0 +1,244 @@
+.contacttitle {
+  text-align: center;
+  justify-content: center;
+  font-size: 0.5rem;
+}
+
+.contacttitle h3 {
+  color: var(--color-skyblue);
+  font-weight: 600;
+  font-size: 2.5rem;
+  letter-spacing: 0.3rem;
+  margin-left: 3rem;
+  font-family: Playfair Display;
+}
+
+.contacttitle p {
+  color: gray;
+  font-weight: 600;
+  font-size: 16px;
+  letter-spacing: 0.2rem;
+}
+
+.imgsection .bgblack {
+  background-image: url(../../Assets/BgBlack.png);
+  background-repeat: no-repeat;
+  position: relative;
+  width: 100%;
+}
+
+.circleimg {
+  position: absolute;
+  right: 78px;
+  bottom: 0;
+}
+
+.circleimg img {
+  width: 70%;
+}
+
+.imagedata {
+  margin-left: 3rem;
+  color: white;
+}
+
+.imgcontactdetail {
+  margin-left: 3rem;
+  color: white;
+  font-size: 1rem;
+}
+
+.phonedetail a,
+.maildetail a,
+.locationdetail a {
+  text-decoration: none;
+  color: white;
+  margin-left: 3rem;
+}
+
+.locationdetail {
+  width: 70%;
+  text-align: center;}
+
+.imageIcon {
+  margin-left: 5rem;
+  font-size: 1.5rem;
+}
+
+.imageIcon a {
+  color: white;
+  padding: 1rem;
+}
+
+.imageIcon a:hover {
+  color: var(--color-skyblue);
+}
+
+/* Form Container */
+.contact-form {
+  background: #ffffff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Form Input Fields */
+.custom-input,
+.custom-select {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+  transition: 0.3s ease-in-out;
+}
+
+/* Input focus effect */
+.custom-input:focus,
+.custom-select:focus {
+  border-color: #007bff;
+  outline: none;
+  box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+}
+
+/* Button Styling */
+.custom-btn {
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  font-size: 18px;
+  transition: 0.3s ease-in-out;
+}
+
+.custom-btn:hover {
+  background-color: #0056b3;
+}
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+  .contact-form {
+    margin-top: 1rem;
+    padding: 15px;
+  }
+
+  .custom-input,
+  .custom-select {
+    font-size: 14px;
+  }
+
+  .custom-btn {
+    font-size: 16px;
+    padding: 8px;
+  }
+}
+
+@media (max-width: 480px) {
+  .contact-form {
+    padding: 10px;
+  }
+
+  .custom-btn {
+    font-size: 14px;
+  }
+}
+
+
+
+/* Media Queries */
+@media (max-width: 768px) {
+  /* For tablets and smaller devices */
+  .contacttitle h3 {
+    font-size: 2rem;
+    margin-left: 0; /* Center title on smaller screens */
+  }
+
+  .contacttitle p {
+    font-size: 14px;
+  }
+
+  .imgsection .bgblack {
+    width: 100%;
+  }
+
+  .circleimg {
+    left: 50%; /* Center the circle image */
+    transform: translateX(35%);
+  }
+
+  .imagedata {
+    text-align: center;
+    padding-bottom: 0; /* Reduce margin for smaller screens */
+  }
+
+  .imgcontactdetail {
+    text-align: left; /* Reduce margin for smaller screens */
+    font-size: 0.9rem;
+    width: 100%;
+  }
+
+  .imageIcon {
+    margin-left: 2rem; /* Reduce margin for smaller screens */
+    font-size: 1.2rem; /* Adjust icon size */
+  }
+
+  .imageIcon a {
+    padding: 0.5rem;
+    margin-left: 3rem;
+  }
+
+  .phonedetail a,
+  .maildetail a,
+  .locationdetail a {
+    margin-left: 1rem;
+  }
+
+  .cuscol {
+    padding: 0;
+  }
+}
+
+@media (max-width: 576px) {
+  /* For mobile devices */
+  .contacttitle h3 {
+    font-size: 1.5rem;
+    margin-left: 0; /* Center title on mobile */
+  }
+
+  .contacttitle p {
+    font-size: 12px;
+  }
+
+  .imgsection .bgblack {
+    padding: 1rem;
+    border-radius: 2rem; /* Less padding */
+  }
+
+  .circleimg {
+    display: none; /* Hide the circle image on mobile */
+  }
+
+  .imagedata {
+    margin-left: 0; /* No margin on mobile */
+    text-align: center; /* Center text */
+  }
+
+  .imgcontactdetail {
+    margin-left: 0; /* No margin on mobile */
+    font-size: 0.8rem; /* Further adjust font size */
+  }
+
+ 
+
+  .imageIcon {
+    margin-left: 0; /* Center icons on mobile */
+    text-align: center; /* Center icons */
+    font-size: 1rem; /* Adjust icon size */
+  }
+
+  .imageIcon a {
+    padding: 0.5rem; /* Adjust padding */
+  }
+
+}
